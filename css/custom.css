@@ -1,0 +1,87 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+/*No media query for `xs` since this is the default in Bootstrap*/
+body {
+  font-family: "Lato", sans-serif;
+}
+
+header {
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  display: flex;
+}
+
+header h1 {
+  margin: 5px;
+  padding: 0;
+  font-size: 13px;
+}
+.navbar {
+  z-index: 1000;
+  display: flex;
+  justify-content: left;
+}
+
+.navbar-collapse.show {
+  background: aliceblue;
+}
+
+.test0 {
+  display: flex;
+}
+.test2 {
+  display: flex;
+  background-color: #000;
+}
+
+.test1 {
+  display: flex;
+  background-color: #000;
+}
+
+#logo {
+  width: 150px;
+}
+
+.blocklogo {
+  justify-content: center;
+  flex-direction: column;
+}
+
+header h2 {
+  font-size: 14px;
+  margin: 20px 0 0;
+}
+
+.home-bg {
+  background: url(/Users/manu/Documents/IRONHACK/PROJETS/Afropunk/web/img/yellow-bg@2x.png);
+  height: 100vh;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+.home-book {
+  width: 336px;
+  background: url(/Users/manu/Documents/IRONHACK/PROJETS/Afropunk/web/img/afropunk-paris-19.jpg);
+  height: 500px;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 7px solid #fff;
+  margin-top: 30px;
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+}
