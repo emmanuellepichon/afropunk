@@ -22,7 +22,7 @@ header h1 {
 }
 
 .navbar-collapse.show {
-  background: aliceblue;
+  background: #555;
 }
 
 .test0 {
@@ -35,7 +35,7 @@ header h1 {
 
 .test1 {
   display: flex;
-  background-color: #000;
+  background-color: #fff;
 }
 
 #logo {
